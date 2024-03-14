@@ -10,8 +10,10 @@ export const Main = () => {
   if (!selectedItem) return null;
 
   const selectedItemData = dataObject[selectedItem];
-  const selectedItemType = selectedItemData?.type;
 
+  if (!selectedItemData) return null;
+
+  const selectedItemType = selectedItemData.type;
   if (selectedItemType === 'folder') return null;
 
   return (
