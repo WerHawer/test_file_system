@@ -1,0 +1,17 @@
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #3c4248;
+  padding: 3px;
+  cursor: pointer;
+
+  &:hover {
+    color: #218ae0;
+  }
+}
+
+.icon {
+  width: 10px;
+  height: 10px;
+}

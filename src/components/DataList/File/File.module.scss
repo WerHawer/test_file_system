@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.selected {
+  color: #3c4248;
+  background: #e6ecf3;
+}

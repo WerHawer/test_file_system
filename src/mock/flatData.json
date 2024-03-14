@@ -1,0 +1,196 @@
+[
+  {
+    "name": "src",
+    "type": "folder",
+    "path": "src",
+    "id": "src_1",
+    "parent": "root",
+    "access": "public",
+    "children": [
+      "components_2",
+      "private_20",
+      "pages_9",
+      "shared_18",
+      "App_16",
+      "index_17",
+      "private file_21"
+    ]
+  },
+  {
+    "name": "components",
+    "type": "folder",
+    "path": "src/components",
+    "id": "components_2",
+    "parent": "src_1",
+    "access": "public",
+    "children": ["Button_3", "Input_6"]
+  },
+  {
+    "name": "Button",
+    "type": "folder",
+    "path": "src/components/Button",
+    "id": "Button_3",
+    "parent": "components_2",
+    "access": "public",
+    "children": ["index_4", "Button_5"]
+  },
+  {
+    "name": "index.js",
+    "type": "file",
+    "path": "src/components/Button/index.js",
+    "id": "index_4",
+    "access": "public",
+    "parent": "Button_3"
+  },
+  {
+    "name": "Button.js",
+    "type": "file",
+    "path": "src/components/Button/Button.js",
+    "id": "Button_5",
+    "access": "public",
+    "parent": "Button_3"
+  },
+  {
+    "name": "Input",
+    "type": "folder",
+    "path": "src/components/Input",
+    "id": "Input_6",
+    "parent": "components_2",
+    "access": "public",
+    "children": ["index_7", "Input_8"]
+  },
+  {
+    "name": "index.js",
+    "type": "file",
+    "path": "src/components/Input/index.js",
+    "id": "index_7",
+    "access": "public",
+    "parent": "Input_6"
+  },
+  {
+    "name": "Input.js",
+    "type": "file",
+    "path": "src/components/Input/Input.js",
+    "id": "Input_8",
+    "access": "public",
+    "parent": "Input_6"
+  },
+  {
+    "name": "pages",
+    "type": "folder",
+    "path": "src/pages",
+    "id": "pages_9",
+    "parent": "src_1",
+    "access": "public",
+    "children": ["Home_10", "About_13"]
+  },
+  {
+    "name": "Home",
+    "type": "folder",
+    "path": "src/pages/Home",
+    "id": "Home_10",
+    "parent": "pages_9",
+    "access": "public",
+    "children": ["index_11", "Home_12"]
+  },
+  {
+    "name": "index.js",
+    "type": "file",
+    "path": "src/pages/Home/index.js",
+    "id": "index_11",
+    "access": "public",
+    "parent": "Home_10"
+  },
+  {
+    "name": "Home.js",
+    "type": "file",
+    "path": "src/pages/Home/Home.js",
+    "id": "Home_12",
+    "access": "public",
+    "parent": "Home_10"
+  },
+  {
+    "name": "About",
+    "type": "folder",
+    "path": "src/pages/About",
+    "id": "About_13",
+    "access": "public",
+    "parent": "pages_9",
+    "children": ["FAQ_19", "index_14", "About_15"]
+  },
+  {
+    "name": "FAQ",
+    "type": "folder",
+    "path": "src/pages/About/FAQ",
+    "id": "FAQ_19",
+    "access": "public",
+    "parent": "About_13",
+    "children": []
+  },
+  {
+    "name": "index.js",
+    "type": "file",
+    "path": "src/pages/About/index.js",
+    "id": "index_14",
+    "access": "public",
+    "parent": "About_13"
+  },
+  {
+    "name": "About.js",
+    "type": "file",
+    "path": "src/pages/About/About.js",
+    "id": "About_15",
+    "access": "public",
+    "parent": "About_13"
+  },
+  {
+    "name": "shared",
+    "type": "folder",
+    "path": "src/shared",
+    "id": "shared_18",
+    "access": "public",
+    "parent": "src_1",
+    "children": []
+  },
+  {
+    "name": "App.js",
+    "type": "file",
+    "path": "src/App.js",
+    "id": "App_16",
+    "access": "public",
+    "parent": "src_1"
+  },
+  {
+    "name": "index.js",
+    "type": "file",
+    "path": "src/index.js",
+    "id": "index_17",
+    "access": "public",
+    "parent": "src_1"
+  },
+  {
+    "name": "private folder",
+    "type": "folder",
+    "path": "src/private",
+    "id": "private_20",
+    "parent": "src_1",
+    "access": "private",
+    "children": ["private file_21"]
+  },
+  {
+    "name": "private file 1",
+    "type": "file",
+    "path": "src/private/private file",
+    "id": "private file_21",
+    "access": "private",
+    "parent": "private_20"
+  },
+  {
+    "name": "private file 2",
+    "type": "file",
+    "path": "src/private file",
+    "id": "private file_21",
+    "access": "private",
+    "parent": "src_1"
+  }
+]
